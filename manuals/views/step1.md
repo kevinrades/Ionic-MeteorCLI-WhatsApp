@@ -282,7 +282,7 @@ Let’s create an `AngularJS` controller that we will connect to the chats view 
  ┊20┊21┊]);
  ┊21┊22┊
  ┊22┊23┊new Loader(App)
-+┊  ┊24┊  .load(ChatsCtrl)
++┊  ┊24┊  .load(ChatsCtrl);
  ┊23┊25┊  .load(RoutesConfig);
  ┊24┊26┊
  ┊25┊27┊// Startup
